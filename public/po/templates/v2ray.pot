@@ -71,11 +71,11 @@ msgstr ""
 msgid "Add policy levels here"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:77
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:86
 msgid "Add routing balancers here"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:42
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:46
 msgid "Add routing rules here"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 #: package/htdocs/luci-static/resources/view/v2ray/dns.js:41
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:39
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:189
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:47
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:51
 msgid "Alias"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "Alter ID"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:71
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:80
 msgid "Attrs"
 msgstr ""
 
@@ -146,11 +146,11 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:74
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:83
 msgid "Balancer tag"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:37
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:41
 msgid "Balancers"
 msgstr ""
 
@@ -312,8 +312,12 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:51
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:55
 msgid "Domain"
+msgstr ""
+
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:32
+msgid "Domain resolution matcher"
 msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:27
@@ -519,7 +523,7 @@ msgid "Hosts"
 msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:162
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:53
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:62
 msgid "IP"
 msgstr ""
 
@@ -558,7 +562,7 @@ msgstr ""
 msgid "Inbound"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:65
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:74
 msgid "Inbound tag"
 msgstr ""
 
@@ -633,6 +637,10 @@ msgstr ""
 msgid "Mark"
 msgstr ""
 
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:57
+msgid "Matcher"
+msgstr ""
+
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:289
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:435
 msgid "Maximum transmission unit (MTU)"
@@ -657,7 +665,7 @@ msgstr ""
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:203
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:213
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:355
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:58
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:67
 msgid "Network"
 msgstr ""
 
@@ -750,7 +758,7 @@ msgstr ""
 msgid "Outbound Import"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:73
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:82
 msgid "Outbound tag"
 msgstr ""
 
@@ -792,7 +800,7 @@ msgstr ""
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:263
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:313
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:340
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:55
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:64
 msgid "Port"
 msgstr ""
 
@@ -806,7 +814,7 @@ msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:50
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:197
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:66
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:75
 msgid "Protocol"
 msgstr ""
 
@@ -902,15 +910,15 @@ msgstr ""
 msgid "Routing"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:77
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:86
 msgid "Routing Balancer"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:42
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:46
 msgid "Routing Rule"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:32
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:36
 msgid "Rules"
 msgstr ""
 
@@ -938,15 +946,15 @@ msgstr ""
 msgid "Select policy levels"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:37
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:41
 msgid "Select routing balancers to use"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:32
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:36
 msgid "Select routing rules to use"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:82
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:91
 msgid "Selector"
 msgstr ""
 
@@ -993,7 +1001,7 @@ msgstr ""
 msgid "Sockopt"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:61
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:70
 msgid "Source"
 msgstr ""
 
@@ -1048,7 +1056,7 @@ msgstr ""
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:380
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:523
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:524
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:80
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:89
 msgid "Tag"
 msgstr ""
 
@@ -1099,7 +1107,7 @@ msgstr ""
 msgid "True"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:49
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:53
 msgid "Type"
 msgstr ""
 
@@ -1144,7 +1152,7 @@ msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:249
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:298
-#: package/htdocs/luci-static/resources/view/v2ray/routing.js:63
+#: package/htdocs/luci-static/resources/view/v2ray/routing.js:72
 msgid "User"
 msgstr ""
 
