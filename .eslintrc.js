@@ -5,11 +5,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-  ],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "prettier", "eslint-plugin-tsdoc"],
   parserOptions: {
