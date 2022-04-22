@@ -47,6 +47,7 @@ jobs:
     - name: Test Source
       run: |
         pnpm lint
+      continue-on-error: true
 
     - name: Build Package Source
       run: |
