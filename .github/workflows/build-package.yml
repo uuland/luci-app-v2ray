@@ -40,9 +40,9 @@ jobs:
 
     - name: Setup PNPM
       uses: pnpm/action-setup@v2
-          with:
-            version: 6
-            run_install: true
+      with:
+        version: 6
+        run_install: true
 
     - name: Test Source
       run: |
