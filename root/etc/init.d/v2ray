@@ -981,6 +981,8 @@ add_policy_settings() {
 	json_add_object "system"
 	json_add_boolean "statsInboundUplink" "$system_stats_inbound_uplink"
 	json_add_boolean "statsInboundDownlink" "$system_stats_inbound_downlink"
+	json_add_boolean "statsOutboundUplink" "$system_stats_inbound_uplink"
+	json_add_boolean "statsOutboundDownlink" "$system_stats_inbound_downlink"
 	json_close_object # system
 
 	json_close_object # policy
@@ -2173,6 +2175,12 @@ start_instance() {
 		if [ "x$stats_enabled" = "x1" ] ; then
 			json_add_object "stats"
 			json_close_object # stats
+			json_add_object "api"
+			json_add_string "tag" "api"
+			json_add_array "services"
+			json_add_string "" "StatsService"
+			json_close_array # services
+			json_close_object # api
 		fi
 
 		add_dns_settings "$section"
