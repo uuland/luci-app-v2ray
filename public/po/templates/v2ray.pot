@@ -26,7 +26,7 @@ msgstr ""
 msgid "A list of portals, format: <code>tag|domain</code>. eg: %s"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:42
 msgid "A list of static addresses, format: <code>domain|address</code>. eg: %s"
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:46
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:48
 msgid "Add DNS servers here"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Add routing rules here"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:52
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:54
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:57
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:219
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:259
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Address of the destination server."
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:50
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:52
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:39
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:189
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:51
@@ -240,11 +240,11 @@ msgstr ""
 msgid "DNS"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:41
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:43
 msgid "DNS Servers"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:46
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:48
 msgid "DNS server"
 msgstr ""
 
@@ -307,6 +307,10 @@ msgstr ""
 msgid "Disable Fallback"
 msgstr ""
 
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+msgid "Disable Fallback if Match"
+msgstr ""
+
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:200
 msgid "Disable insecure encryption"
 msgstr ""
@@ -336,7 +340,7 @@ msgstr ""
 msgid "Domain strategy"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:56
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:58
 msgid "Domains"
 msgstr ""
 
@@ -394,7 +398,7 @@ msgstr ""
 msgid "Error log file"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:58
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:60
 msgid "Expect IPs"
 msgstr ""
 
@@ -526,7 +530,7 @@ msgstr ""
 msgid "Host"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:42
 msgid "Hosts"
 msgstr ""
 
@@ -801,7 +805,7 @@ msgstr ""
 msgid "Policy Level"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:53
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:55
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:47
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:61
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:222
@@ -950,7 +954,7 @@ msgstr ""
 msgid "Security"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:41
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:43
 msgid "Select DNS servers to use"
 msgstr ""
 
@@ -1001,7 +1005,7 @@ msgstr ""
 msgid "Setup redirect rules with TProxy."
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:60
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
 msgid "Skip Fallback"
 msgstr ""
 

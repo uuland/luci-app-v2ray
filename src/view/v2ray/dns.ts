@@ -59,6 +59,13 @@ return L.view.extend<SectionItem[]>({
     o.rmempty = false;
 
     o = s1.option(
+      form.Flag,
+      "disable_fallback_match",
+      _("Disable Fallback if Match")
+    );
+    o.rmempty = false;
+
+    o = s1.option(
       form.DynamicList,
       "hosts",
       _("Hosts"),
