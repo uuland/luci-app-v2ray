@@ -156,6 +156,7 @@ dns_section_validate() {
 		'query_strategy:or("UseIP", "UseIPv4", "UseIPv6")' \
 		'disable_cache:bool:0' \
 		'disable_fallback:bool:0' \
+		'disable_fallback_match:bool:0' \
 		'hosts:list(string)' \
 		'servers:list(uci("v2ray", "@dns_server"))'
 }
@@ -732,6 +733,7 @@ add_dns_settings() {
 
 	json_add_boolean "disableCache" "$disable_cache"
 	json_add_boolean "disableFallback" "$disable_fallback"
+	json_add_boolean "disableFallbackIfMatch" "$disable_fallback_match"
 
 	if [ -n "$hosts" ] ; then
 		json_add_object "hosts"
@@ -758,7 +760,7 @@ add_dns_settings() {
 					continue
 				fi
 
-				if [ -z "${port}${domains}${expect_ips}${skip_fallback}" ] ; then
+				if [ "${port}${domains}${expect_ips}x${skip_fallback}" = "x0" ] ; then
 					json_add_string "" "$address"
 				else
 					json_add_object ""
@@ -766,8 +768,6 @@ add_dns_settings() {
 
 					if [ -n "$port" ] ; then
 						json_add_int "port" "$port"
-					else
-						json_add_int "port" "53"
 					fi
 
 					if [ -n "$domains" ] ; then

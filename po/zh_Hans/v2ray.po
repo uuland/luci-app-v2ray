@@ -26,7 +26,7 @@ msgstr "Bridge 列表，格式：<code>tag|domain</code>。例如：%s"
 msgid "A list of portals, format: <code>tag|domain</code>. eg: %s"
 msgstr "Portal 列表，格式：<code>tag|domain</code>。例如：%s"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:42
 msgid "A list of static addresses, format: <code>domain|address</code>. eg: %s"
 msgstr "静态 IP 列表，格式：<code>domain|address</code>。例如：%s"
 
@@ -63,7 +63,7 @@ msgstr "账户用户名"
 msgid "Add"
 msgstr "添加"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:46
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:48
 msgid "Add DNS servers here"
 msgstr "在这里添加 DNS 服务器"
 
@@ -79,7 +79,7 @@ msgstr "在这里添加路由负载均衡器"
 msgid "Add routing rules here"
 msgstr "在这里添加路由规则"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:52
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:54
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:57
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:219
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:259
@@ -92,7 +92,7 @@ msgstr "地址"
 msgid "Address of the destination server."
 msgstr "将流量转发到此地址。"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:50
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:52
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:39
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:189
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:51
@@ -240,11 +240,11 @@ msgstr "当前配置文件：%s"
 msgid "DNS"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:41
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:43
 msgid "DNS Servers"
 msgstr "DNS 服务器"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:46
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:48
 msgid "DNS server"
 msgstr "DNS 服务器"
 
@@ -307,6 +307,10 @@ msgstr "禁用缓存"
 msgid "Disable Fallback"
 msgstr "禁用回退"
 
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+msgid "Disable Fallback if Match"
+msgstr "匹配时禁用回退"
+
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:200
 msgid "Disable insecure encryption"
 msgstr "禁止不安全的加密方式"
@@ -336,7 +340,7 @@ msgstr "域名解析策略"
 msgid "Domain strategy"
 msgstr "域名策略"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:56
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:58
 msgid "Domains"
 msgstr "域名"
 
@@ -394,7 +398,7 @@ msgstr "错误"
 msgid "Error log file"
 msgstr "错误日志文件"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:58
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:60
 msgid "Expect IPs"
 msgstr "期望 IP"
 
@@ -526,7 +530,7 @@ msgstr "HTTP 头"
 msgid "Host"
 msgstr "域名"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:40
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:42
 msgid "Hosts"
 msgstr "静态 IP 列表"
 
@@ -801,7 +805,7 @@ msgstr "策略"
 msgid "Policy Level"
 msgstr "策略等级"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:53
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:55
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:47
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:61
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:222
@@ -950,7 +954,7 @@ msgstr "保存"
 msgid "Security"
 msgstr "传输层加密"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:41
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:43
 msgid "Select DNS servers to use"
 msgstr "选择使用的 DNS 服务器"
 
@@ -1001,7 +1005,7 @@ msgstr "配置"
 msgid "Setup redirect rules with TProxy."
 msgstr "使用 TProxy 来设置转发规则。"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:60
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
 msgid "Skip Fallback"
 msgstr "回退时跳过"
 
