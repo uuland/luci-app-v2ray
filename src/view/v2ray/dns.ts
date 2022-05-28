@@ -46,6 +46,18 @@ return L.view.extend<SectionItem[]>({
     );
     o.datatype = "ipaddr";
 
+    o = s1.option(form.ListValue, "query_strategy", _("Query Strategy"));
+    o.value("");
+    o.value("UseIP");
+    o.value("UseIPv4");
+    o.value("UseIPv6");
+
+    o = s1.option(form.Flag, "disable_cache", _("Disable Cache"));
+    o.rmempty = false;
+
+    o = s1.option(form.Flag, "disable_fallback", _("Disable Fallback"));
+    o.rmempty = false;
+
     o = s1.option(
       form.DynamicList,
       "hosts",
@@ -89,6 +101,9 @@ return L.view.extend<SectionItem[]>({
 
     o = s2.option(form.DynamicList, "expect_ips", _("Expect IPs"));
     o.modalonly = true;
+
+    o = s2.option(form.Flag, "skip_fallback", _("Skip Fallback"));
+    o.rmempty = false;
 
     return m.render();
   },

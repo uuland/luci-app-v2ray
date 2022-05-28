@@ -15,9 +15,9 @@
   },
   "devDependencies": {
     "@kuoruan/luci-types": "^1.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
-    "eslint": "^8.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-tsdoc": "^0.2.16",
@@ -26,10 +26,10 @@
     "gulp-replace": "^1.1.3",
     "gulp-terser": "^2.1.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "install-deps-postmerge": "^2.0.1",
-    "lint-staged": "^12.4.0",
+    "lint-staged": "^12.4.2",
     "prettier": "^2.6.2",
-    "typescript": "^4.6.3"
+    "typescript": "^4.7.2"
   }
 }
