@@ -85,12 +85,6 @@ return L.view.extend<string[]>({
         case "ws": {
           uci.set("v2ray", sid, "ss_network", "ws");
           uci.set("v2ray", sid, "ss_websocket_path", path);
-          uci.set(
-            "v2ray",
-            sid,
-            "ss_websocket_ed_name",
-            "Sec-WebSocket-Protocol"
-          );
           break;
         }
 
