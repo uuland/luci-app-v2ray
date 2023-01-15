@@ -1391,12 +1391,6 @@ add_inbound_setting() {
 			test -n "$ss_websocket_path" && \
 				json_add_string "path" "$ss_websocket_path"
 
-			test -n "$ss_websocket_ed_size" && \
-				json_add_int "maxEarlyData" "$ss_websocket_ed_size"
-
-			test -n "$ss_websocket_ed_name" && \
-				json_add_string "earlyDataHeaderName" "$ss_websocket_ed_name"
-
 			if [ -n "$ss_websocket_headers" ] ; then
 				json_add_object "headers"
 
@@ -1852,6 +1846,12 @@ add_outbound_setting() {
 
 			test -n "$ss_websocket_path" && \
 				json_add_string "path" "$ss_websocket_path"
+
+			test -n "$ss_websocket_ed_size" && \
+				json_add_int "maxEarlyData" "$ss_websocket_ed_size"
+
+			test -n "$ss_websocket_ed_name" && \
+				json_add_string "earlyDataHeaderName" "$ss_websocket_ed_name"
 
 			if [ -n "$ss_websocket_headers" ] ; then
 				json_add_object "headers"
