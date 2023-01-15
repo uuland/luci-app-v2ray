@@ -85,6 +85,12 @@ return L.view.extend<string[]>({
         case "ws": {
           uci.set("v2ray", sid, "ss_network", "ws");
           uci.set("v2ray", sid, "ss_websocket_path", path);
+          uci.set(
+            "v2ray",
+            sid,
+            "ss_websocket_ed_name",
+            "Sec-WebSocket-Protocol"
+          );
           break;
         }
 
@@ -928,6 +934,24 @@ return L.view.extend<string[]>({
       form.Value,
       "ss_websocket_path",
       "%s - %s".format("WebSocket", _("Path"))
+    );
+    o.modalonly = true;
+    o.depends("ss_network", "ws");
+
+    o = s.taboption(
+      "stream",
+      form.Value,
+      "ss_websocket_ed_size",
+      "%s - %s".format("WebSocket", _("EarlyData max size"))
+    );
+    o.modalonly = true;
+    o.depends("ss_network", "ws");
+
+    o = s.taboption(
+      "stream",
+      form.Value,
+      "ss_websocket_ed_name",
+      "%s - %s".format("WebSocket", _("EarlyData header"))
     );
     o.modalonly = true;
     o.depends("ss_network", "ws");
