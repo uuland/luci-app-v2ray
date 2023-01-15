@@ -380,6 +380,8 @@ outbound_section_validate() {
 		'ss_kcp_write_buffer_size:uinteger' \
 		'ss_kcp_header_type:or("none", "srtp", "utp", "wechat-video", "dtls", "wireguard")' \
 		'ss_websocket_path:string' \
+		'ss_websocket_ed_size:uinteger' \
+		'ss_websocket_ed_name:string' \
 		'ss_websocket_headers:list(string)' \
 		'ss_http_host:list(host)' \
 		'ss_http_path:string' \
@@ -1388,6 +1390,12 @@ add_inbound_setting() {
 
 			test -n "$ss_websocket_path" && \
 				json_add_string "path" "$ss_websocket_path"
+
+			test -n "$ss_websocket_ed_size" && \
+				json_add_int "maxEarlyData" "$ss_websocket_ed_size"
+
+			test -n "$ss_websocket_ed_name" && \
+				json_add_string "earlyDataHeaderName" "$ss_websocket_ed_name"
 
 			if [ -n "$ss_websocket_headers" ] ; then
 				json_add_object "headers"
