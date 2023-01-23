@@ -356,6 +356,7 @@ outbound_section_validate() {
 		'ss_security:or("none", "tls")' \
 		'ss_tls_server_name:host' \
 		'ss_tls_alpn:string' \
+		'ss_tls_fingerprint:string' \
 		'ss_tls_allow_insecure:bool:0' \
 		'ss_tls_allow_insecure_ciphers:bool:0' \
 		'ss_tls_disable_system_root:bool:0' \
@@ -1717,6 +1718,9 @@ add_outbound_setting() {
 			json_add_string "" "$ss_tls_alpn"
 			json_close_array
 		fi
+
+		test -n "$ss_tls_fingerprint" && \
+			json_add_string "fingerprint" "$ss_tls_fingerprint"
 
 		json_add_boolean "allowInsecure" "$ss_tls_allow_insecure"
 		json_add_boolean "allowInsecureCiphers" "$ss_tls_allow_insecure_ciphers"

@@ -675,6 +675,15 @@ return L.view.extend<string[]>({
 
     o = s.taboption(
       "stream",
+      form.Value,
+      "ss_tls_fingerprint",
+      "%s - %s".format("TLS", "Fingerprint")
+    );
+    o.modalonly = true;
+    o.depends("ss_security", "tls");
+
+    o = s.taboption(
+      "stream",
       form.Flag,
       "ss_tls_allow_insecure",
       "%s - %s".format("TLS", _("Allow insecure"))
