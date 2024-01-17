@@ -851,6 +851,7 @@ msgid "Proxy settings"
 msgstr "出站代理配置"
 
 #: package/htdocs/luci-static/resources/view/v2ray/dns.js:31
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
 msgid "Query Strategy"
 msgstr "查询类型"
 
@@ -1013,7 +1014,7 @@ msgstr "配置"
 msgid "Setup redirect rules with TProxy."
 msgstr "使用 TProxy 来设置转发规则。"
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:67
 msgid "Skip Fallback"
 msgstr "回退时跳过"
 

@@ -167,6 +167,7 @@ dns_server_section_validate() {
 		'port:port' \
 		'domains:list(string)' \
 		'expect_ips:list(string)' \
+		'query_strategy:or("UseIP", "UseIPv4", "UseIPv6")' \
 		'skip_fallback:bool:0'
 }
 
@@ -763,7 +764,7 @@ add_dns_settings() {
 					continue
 				fi
 
-				if [ "${port}${domains}${expect_ips}x${skip_fallback}" = "x0" ] ; then
+				if [ "${port}${domains}${expect_ips}x${skip_fallback}${query_strategy}" = "x0" ] ; then
 					json_add_string "" "$address"
 				else
 					json_add_object ""
@@ -797,6 +798,10 @@ add_dns_settings() {
 
 					if [ "x$skip_fallback" = "x1" ] ; then
 						json_add_boolean "skipFallback" "$skip_fallback"
+					fi
+
+					if [ -n "$query_strategy" ] ; then
+						json_add_string "queryStrategy" "$query_strategy"
 					fi
 
 					json_close_object
