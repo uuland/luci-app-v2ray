@@ -109,6 +109,12 @@ return L.view.extend<SectionItem[]>({
     o = s2.option(form.DynamicList, "expect_ips", _("Expect IPs"));
     o.modalonly = true;
 
+    o = s2.option(form.ListValue, "query_strategy", _("Query Strategy"));
+    o.value("");
+    o.value("UseIP");
+    o.value("UseIPv4");
+    o.value("UseIPv6");
+
     o = s2.option(form.Flag, "skip_fallback", _("Skip Fallback"));
     o.rmempty = false;
 

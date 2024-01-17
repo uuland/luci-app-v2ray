@@ -851,6 +851,7 @@ msgid "Proxy settings"
 msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/dns.js:31
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
 msgid "Query Strategy"
 msgstr ""
 
@@ -1013,7 +1014,7 @@ msgstr ""
 msgid "Setup redirect rules with TProxy."
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/dns.js:62
+#: package/htdocs/luci-static/resources/view/v2ray/dns.js:67
 msgid "Skip Fallback"
 msgstr ""
 
