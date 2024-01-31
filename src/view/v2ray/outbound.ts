@@ -637,6 +637,15 @@ return L.view.extend<string[]>({
     o.depends("protocol", "vless");
     o.datatype = "uinteger";
 
+    o = s.taboption(
+      "general",
+      form.Value,
+      "s_vless_user_flow",
+      "%s - %s".format("VLESS", _("Flow"))
+    );
+    o.modalonly = true;
+    o.depends("protocol", "vless");
+
     /** Stream Settings **/
     o = s.taboption("stream", form.ListValue, "ss_network", _("Network"));
     o.value("");
