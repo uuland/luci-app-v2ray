@@ -12,9 +12,9 @@ msgstr "配置文件中的 <code>transport</code> 项，JSON 字符串"
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:271
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:286
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:335
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:423
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:435
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:490
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:426
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:438
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:493
 msgid "A list of HTTP headers, format: <code>header=value</code>. eg: %s"
 msgstr "HTTP Header 列表，格式：<code>header=value</code>。例如：%s"
 
@@ -113,12 +113,12 @@ msgid "Allocate"
 msgstr "端口分配"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:224
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:378
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:381
 msgid "Allow insecure"
 msgstr "允许不安全连接"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:227
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:381
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:384
 msgid "Allow insecure ciphers"
 msgstr "允许不安全的加密方式"
 
@@ -179,12 +179,12 @@ msgid "CN Proxy"
 msgstr "代理 CN"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:240
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:394
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:397
 msgid "Certificate file"
 msgstr "证书文件路径"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:233
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:387
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:390
 msgid "Certificate usage"
 msgstr "证书用途"
 
@@ -213,7 +213,7 @@ msgid "Collecting data..."
 msgstr "正在收集数据..."
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:395
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:537
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:540
 msgid "Concurrency"
 msgstr "随机端口数量"
 
@@ -222,7 +222,7 @@ msgid "Config file"
 msgstr "配置文件"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:309
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:458
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:461
 msgid "Congestion enabled"
 msgstr "启用拥塞控制"
 
@@ -316,7 +316,7 @@ msgid "Disable insecure encryption"
 msgstr "禁止不安全的加密方式"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:230
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:384
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:387
 msgid "Disable system root"
 msgstr "禁用系统自带的 CA 证书"
 
@@ -349,7 +349,7 @@ msgid "Donate: %s"
 msgstr "捐助：%s"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:304
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:453
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:456
 msgid "Downlink capacity"
 msgstr "下行链路容量"
 
@@ -357,11 +357,11 @@ msgstr "下行链路容量"
 msgid "Downlink only"
 msgstr "上行连接关闭等待时间"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:487
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:490
 msgid "EarlyData header"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:484
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:487
 msgid "EarlyData max size"
 msgstr ""
 
@@ -387,7 +387,7 @@ msgstr "在 Dokodemo-door 端口上启用透明代理。"
 #: package/htdocs/luci-static/resources/view/v2ray/main.js:41
 #: package/htdocs/luci-static/resources/view/v2ray/main.js:91
 #: package/htdocs/luci-static/resources/view/v2ray/main.js:93
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:535
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:538
 #: package/htdocs/luci-static/resources/view/v2ray/policy.js:28
 #: package/htdocs/luci-static/resources/view/v2ray/reverse.js:17
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:26
@@ -439,9 +439,13 @@ msgid "Failed to request."
 msgstr "请求失败。"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:372
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:530
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:533
 msgid "False"
 msgstr "否"
+
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:355
+msgid "Flow"
+msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:76
 msgid "Follow redirect"
@@ -491,27 +495,27 @@ msgid "Grant access to LuCI app V2ray"
 msgstr "为 V2Ray LuCI 分配权限"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:256
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:409
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:412
 msgid "HTTP request method"
 msgstr "HTTP 请求方式"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:252
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:406
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:409
 msgid "HTTP request version"
 msgstr "HTTP 请求版本"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:282
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:432
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:435
 msgid "HTTP response reason"
 msgstr "HTTP 响应说明"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:278
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:429
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:432
 msgid "HTTP response status"
 msgstr "HTTP 响应状态"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:274
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:426
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:429
 msgid "HTTP response version"
 msgstr "HTTP 响应版本"
 
@@ -522,19 +526,19 @@ msgstr "握手时间限制"
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:246
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:322
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:359
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:400
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:471
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:514
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:403
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:474
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:517
 msgid "Header type"
 msgstr "头部伪装类型"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:335
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:490
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:493
 msgid "Headers"
 msgstr "HTTP 头"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:338
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:493
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:496
 msgid "Host"
 msgstr "域名"
 
@@ -560,14 +564,14 @@ msgid ""
 "If transparent proxy enabled on current inbound, this option will be ignored."
 msgstr "如果在当前入站连接上启用透明代理，此选项会被忽略。"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:524
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:527
 msgid ""
 "If transparent proxy is enabled, this option is ignored and will be set to "
 "255."
 msgstr "如果启用了透明代理，此选项会被忽略，并自动设置为255。"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:548
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:550
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:551
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:553
 msgid "Import"
 msgstr "导入"
 
@@ -603,12 +607,12 @@ msgid "Invalid url"
 msgstr "无效链接"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:355
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:510
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:513
 msgid "Key"
 msgstr "密钥"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:243
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:397
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:400
 msgid "Key file"
 msgstr "密钥文件路径"
 
@@ -653,7 +657,7 @@ msgstr "日志等级"
 msgid "LuCI support for V2Ray."
 msgstr "V2Ray 的 LuCI 配置界面"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:524
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:527
 msgid "Mark"
 msgstr "标记"
 
@@ -662,7 +666,7 @@ msgid "Matcher"
 msgstr "匹配算法"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:289
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:438
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:441
 msgid "Maximum transmission unit (MTU)"
 msgstr "最大传输单元（MTU）"
 
@@ -675,8 +679,8 @@ msgstr "内存百分比"
 msgid "Method"
 msgstr "加密方式"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:535
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:537
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:538
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:540
 msgid "Mux"
 msgstr "多路复用"
 
@@ -684,7 +688,7 @@ msgstr "多路复用"
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:139
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:203
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:213
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:355
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:358
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:67
 msgid "Network"
 msgstr "网络"
@@ -706,11 +710,11 @@ msgstr "无链接导入。"
 #: package/htdocs/luci-static/resources/view/v2ray/main.js:70
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:211
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:331
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:366
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:404
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:475
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:507
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:518
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:369
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:407
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:478
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:510
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:521
 #: package/htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:144
 msgid "None"
 msgstr "无"
@@ -797,9 +801,9 @@ msgstr "密码"
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:332
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:341
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:345
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:481
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:496
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:500
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:484
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:499
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:503
 msgid "Path"
 msgstr "路径"
 
@@ -846,7 +850,7 @@ msgstr "代理列表 DNS"
 msgid "Proxy mode"
 msgstr "代理模式"
 
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:533
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:536
 msgid "Proxy settings"
 msgstr "出站代理配置"
 
@@ -856,7 +860,7 @@ msgid "Query Strategy"
 msgstr "查询类型"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:312
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:461
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:464
 msgid "Read buffer size"
 msgstr "读取缓冲区大小"
 
@@ -905,17 +909,17 @@ msgid "Report Bugs: %s"
 msgstr "报告错误：%s"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:271
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:423
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:426
 msgid "Request headers"
 msgstr "请求头"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:268
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:420
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:423
 msgid "Request path"
 msgstr "请求路径"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:286
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:435
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:438
 msgid "Response headers"
 msgstr "响应头"
 
@@ -958,8 +962,8 @@ msgstr "保存"
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:211
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:348
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:324
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:363
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:503
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:366
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:506
 msgid "Security"
 msgstr "传输层加密"
 
@@ -993,7 +997,7 @@ msgid "Server address"
 msgstr "服务器地址"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:216
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:368
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:371
 msgid "Server name"
 msgstr "服务器端证书域名"
 
@@ -1025,8 +1029,8 @@ msgstr "流量探测"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:369
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:374
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:524
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:527
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:530
 msgid "Sockopt"
 msgstr "连接选项"
 
@@ -1073,7 +1077,7 @@ msgid "System"
 msgstr "系统"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:369
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:527
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:530
 msgid "TCP fast open"
 msgstr "TCP 快速打开"
 
@@ -1083,8 +1087,8 @@ msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/dns.js:28
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:380
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:532
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:533
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:535
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:536
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:89
 msgid "Tag"
 msgstr "标识"
@@ -1116,7 +1120,7 @@ msgid "Total: %s"
 msgstr "总数：%s"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:294
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:443
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:446
 msgid "Transmission time interval (TTI)"
 msgstr "传输时间间隔（TTI）"
 
@@ -1132,7 +1136,7 @@ msgid "Transport"
 msgstr "底层传输"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:373
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:531
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:534
 msgid "True"
 msgstr "是"
 
@@ -1163,7 +1167,7 @@ msgid "Update"
 msgstr "更新"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:299
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:448
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:451
 msgid "Uplink capacity"
 msgstr "上行链路容量"
 
@@ -1247,8 +1251,8 @@ msgstr "警告"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:329
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:366
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:478
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:521
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:481
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:524
 msgid "Wechat Video"
 msgstr "微信视频通话"
 
@@ -1258,7 +1262,7 @@ msgid ""
 msgstr "当 UDP 启用时，V2Ray 需要知道当前服务器的 IP 地址。"
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:317
-#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:466
+#: package/htdocs/luci-static/resources/view/v2ray/outbound.js:469
 msgid "Write buffer size"
 msgstr "写入缓冲区大小"
 

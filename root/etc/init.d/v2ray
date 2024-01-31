@@ -353,6 +353,7 @@ outbound_section_validate() {
 		's_vless_user_id:string' \
 		's_vless_user_encryption:or("none")' \
 		's_vless_user_level:uinteger' \
+		's_vless_user_flow:string' \
 		'ss_network:or("tcp", "kcp", "ws", "http", "domainsocket", "quic")' \
 		'ss_security:or("none", "tls")' \
 		'ss_tls_server_name:host' \
@@ -1694,6 +1695,8 @@ add_outbound_setting() {
 			test -n "$s_vless_user_level" && \
 				json_add_int "level" "$s_vless_user_level"
 			json_add_string "encryption" "$s_vless_user_encryption"
+			test -n "$s_vless_user_flow" && \
+				json_add_string "flow" "$s_vless_user_flow"
 
 			json_close_object # users_obj
 			json_close_array # users
