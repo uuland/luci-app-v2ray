@@ -864,6 +864,15 @@ return L.view.extend<string[]>({
     o.modalonly = true;
     o.value("http");
     o.value("tls");
+    o.value("quic");
+
+    o = s.taboption(
+      "other",
+      form.Flag,
+      "sniffing_route_only",
+      "%s - %s".format(_("Sniffing"), _("RouteOnly"))
+    );
+    o.modalonly = true;
 
     o = s.taboption(
       "other",

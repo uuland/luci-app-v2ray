@@ -106,9 +106,9 @@ msgstr ""
 msgid "All connections share this level"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:387
-#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:392
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:390
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:395
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:398
 msgid "Allocate"
 msgstr ""
 
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Collecting data..."
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:395
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:398
 #: package/htdocs/luci-static/resources/view/v2ray/outbound.js:540
 msgid "Concurrency"
 msgstr ""
@@ -888,7 +888,7 @@ msgstr ""
 msgid "Redirect port"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:392
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:395
 msgid "Refresh"
 msgstr ""
 
@@ -931,6 +931,10 @@ msgstr ""
 #: package/luasrc/controller/v2ray.lua:27
 #: package/root/usr/share/luci/menu.d/luci-app-v2ray.json:66
 msgid "Reverse"
+msgstr ""
+
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:388
+msgid "RouteOnly"
 msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/routing.js:21
@@ -1024,6 +1028,7 @@ msgstr ""
 
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:381
 #: package/htdocs/luci-static/resources/view/v2ray/inbound.js:383
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:388
 msgid "Sniffing"
 msgstr ""
 
@@ -1062,7 +1067,7 @@ msgstr ""
 msgid "Stats user uplink"
 msgstr ""
 
-#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:387
+#: package/htdocs/luci-static/resources/view/v2ray/inbound.js:390
 msgid "Strategy"
 msgstr ""
 
