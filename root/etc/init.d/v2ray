@@ -308,7 +308,8 @@ inbound_section_validate() {
 		'ss_sockopt_tproxy:or("redirect", "tproxy", "off")' \
 		'tag:string' \
 		'sniffing_enabled:bool:0' \
-		'sniffing_dest_override:list(or("http", "tls"))' \
+		'sniffing_dest_override:list(or("http", "tls", "quic"))' \
+		'sniffing_route_only:bool:0' \
 		'allocate_strategy:or("always", "random")' \
 		'allocate_refresh:uinteger' \
 		'allocate_concurrency:uinteger'
@@ -1497,6 +1498,8 @@ add_inbound_setting() {
 		done
 		json_close_array # destOverride
 	fi
+
+	json_add_boolean "routeOnly" "$sniffing_route_only"
 
 	json_close_object # sniffing
 
